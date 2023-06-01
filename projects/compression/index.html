@@ -1,0 +1,249 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>Data Compression</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="ASAP">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=https://asap.ucar.edu/css/bootstrap.min.css>
+<link rel=stylesheet href=https://asap.ucar.edu/font-awesome/css/font-awesome.min.css>
+<link rel=stylesheet href=https://asap.ucar.edu/icomoon/style.css>
+<link href=https://asap.ucar.edu/scss/style.min.css rel=stylesheet>
+<link rel="shortcut icon" href=https://asap.ucar.edu/images/favicon.jpg type=image/x-icon>
+<link rel=icon href=https://asap.ucar.edu/images/favicon.ico type=image/x-icon>
+</head>
+<body><nav class="navbar navbar-expand-lg site-navigation">
+<div class=container>
+<a class="navbar-brand navbar-agency-brand" href=https://ncar.ucar.edu/who-we-are/funding>
+<img src=https://asap.ucar.edu/logos/NSF_4-Color_bitmap_Logo.png alt=NCAR>
+</a>
+<a class="navbar-brand navbar-unit-brand" href=https://asap.ucar.edu/>
+<img src=https://asap.ucar.edu/logos/ncar-logo-navy.svg alt=LOGO>
+<span style=font-weight:800>ASAP</span>
+</a>
+<button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar aria-controls=sitenavbar aria-expanded=false aria-label=menu>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<div class="collapse navbar-collapse" id=sitenavbar>
+<ul class="navbar-nav ml-auto main-nav">
+<li class=nav-item>
+<a class=nav-link href=https://asap.ucar.edu/about>About</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://asap.ucar.edu/news>News</a>
+</li>
+<li class=nav-item>
+<div class=dropdown-container>
+<a href=# class="dropdown-toggle nav-link" data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>What we do<span class=caret></span></a>
+<ul class=dropdown-menu>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/projects>Research Projects</a></li>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/software>Software Projects</a></li>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/education>Education</a></li>
+</ul>
+</div>
+</li>
+<li class=nav-item>
+<div class=dropdown-container>
+<a href=# class="dropdown-toggle nav-link" data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Publications & Presentations<span class=caret></span></a>
+<ul class=dropdown-menu>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/publications>Publications</a></li>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/presentations>Presentations</a></li>
+</ul>
+</div>
+</li>
+<li class=nav-item>
+<div class=dropdown-container>
+<a href=# class="dropdown-toggle nav-link" data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Collaborators<span class=caret></span></a>
+<ul class=dropdown-menu>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/siparcs>SIParCS</a></li>
+<li><a class="dropdown-item nav-link" a href=https://asap.ucar.edu/visitors>Students & Visitors</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<section class=site-project-single-section>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<div class=site-project-single>
+<h1>
+Data Compression
+</h1>
+<div class=site-project-single-description>
+<p><strong>Summary</strong></p>
+<p>Climate models such as the Community Earth System Model (CESM)
+typically produce enormous amounts of output data, and storage
+capacities have not increased as rapidly as processor speeds over the
+years. As a result, the cost of storing huge data volumes has become
+increasingly problematic and has forced climate scientists to make
+hard choices about which variables to save, data output frequency,
+simulation lengths, or ensemble sizes, all of which can negatively
+impact science objectives. Therefore, we have been investigating
+lossy data compression techniques as a means of reducing data storage
+for CESM. Lossy compression, by definition, does not exactly
+preserve the original data, but it achieves higher compression rates
+and subsequently smaller storage requirements. However, as with any
+data reduction approach, we must exercise extreme care when applying
+lossy compression to climate output data to avoid introducing
+artifacts in the data that could affect scientific conclusions.</p>
+<figure><img src=/images/projects/data.png alt="This figure illustrates data growth at NCAR from July 2018 to February 2022. Total disk size is given in parenthesis." width=600><figcaption>
+<p>This figure illustrates data growth at NCAR from July 2018 to February 2022. Total disk size is given in parenthesis.</p>
+</figcaption>
+</figure>
+<p>Our focus has been on better understanding the effects of lossy
+compression on spatio-temporal climate data and on gaining user
+acceptance via careful analysis and testing. To that end, we are
+developing appropriate climate-specific metrics and tools to enable
+scientists to evaluate the effects of lossy compression on their own
+data and facilitate optimizing compression for each variable. For
+example, the Large Data Comparison for Python (LDCPy) package for visualizing
+and computing statistics on differences between multiple datasets,
+which enables climate scientists to discover potentially relevant
+compression-induced artifacts in their data.</p>
+<p>We also can help scientists to compress data to lossless or lossy
+data using Python tools (numcodecs/zarr) or C tools (filters with
+NetCDF or HDF5) to satisfy their data space allocations. Scientists
+can contact us at <a href=mailto:haiyingx@ucar.edu>haiyingx@ucar.edu</a> or <a href=mailto:abaker@ucar.edu>abaker@ucar.edu</a>.</p>
+<figure><img src=/images/projects/cv.png alt="A comparison of N-S contrast variances (to measure fine-scale spatial variability) for surface temperature with two different compressors, as generated by LDCPy." width=200><figcaption>
+<p>A comparison of N-S contrast variances (to measure fine-scale spatial variability) for surface temperature with two different compressors, as generated by LDCPy.</p>
+</figcaption>
+</figure>
+<p><strong>Related software:</strong></p>
+<p><a href=https://github.com/NCAR/ldcpy>https://github.com/NCAR/ldcpy</a></p>
+<p><strong>Related publications and tech notes:</strong></p>
+<p>H. Sather, A. Pinard, A.H. Baker, and D.M. Hammerling, “What can real information content tell us about compressing climate model data?” 8th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD-8), 2022, to appear.</p>
+<p>A.H. Baker, A. Pinard, and D.M. Hammerling, “Assessing the effects of compression on climate model visualizations with a structural similarity index for floating-point data”, submitted to TVCG, Sept. 2022.</p>
+<p>A. Pinard, A.H. Baker, D.M. Hammerling, “Examining Variations in the Optimal Compression Level of Spatiotemporal Datasets Determined Using the Data Structural Similarity Index Measure (DSSIM),” National Center for Atmospheric Research Tech. Report NCAR/TN-570+STR, 2021. (DOI: 10.5065/4q49-t141)</p>
+<p>A. Pinard, A.H. Baker, D.M. Hammerling, “A statistical approach to obtaining a data structural similarity index cutoff threshold,” National Center for Atmospheric Research Tech. Report NCAR/TN-568+STR, 2021. (DOI: 10.5065/jc2r-5289)</p>
+<p>Alexander Pinard, Dorit M. Hammerling, Allison H. Baker. “Assessing Differences in Large Spatio-temporal Climate Datasets with a New Python package”, International Workshop on Big Data Reduction (BigData2020), pp. 2699-2707, 2020.</p>
+<p>Andrew Poppick, Joseph Nardi, Noah Feldman, Allison H. Baker,
+Alexander Pinard, and Dorit M. Hammerling. “A Statistical Analysis of
+Lossily Compressed Climate Model Data”, Computers and Geosciences,
+vol. 145, 2020.</p>
+<p>Dorit M. Hammerling, Allison H. Baker, Alexander Pinard, Peter Lindstrom, &ldquo;A collaborative effort to improve lossy compression for climate data,” in The Fifth International Workshop on Data Analysis and Reduction for Big Scientific Data, Denver, CO, 2019.</p>
+<p>A.H. Baker, D.M. Hammerling, and T.L. Turton. “Evaluating image quality measures to assess the impact of lossy data compression applied to climate simulation data”, Computer Graphics Forum 38(3), June 2019.</p>
+<p>A. H. Baker, H. Xu, D. M. Hammerling, S. Li, and J. Clyne, “Toward a
+Multi-method Approach: Lossy Data Co
+mpression for Climate Simulation Data”, in J.M. Kunkel et al. (Eds.): ISC High Performance Workshops 2017, LNCS 10524, pp. 30–42, 2017.</p>
+<p>Allison H. Baker, Dorit M. Hammerling, Sheri A. Mickelson, Haiying Xu,
+Martin B. Stolpe, Phillipe Naveau, Ben Sanderson, Imme Ebert-Uphoff,
+Savini Samarasinghe, Francesco De Simone, Francesco Carbone, Christian
+N. Gencarelli, John M. Dennis, Jennifer E. Kay, and Peter Lindstrom,
+“Evaluating Lossy Data Compression on Climate Simulation Data within a
+Large Ensemble.” Geoscientific Model Development, 9, 4381-4403, 2016.</p>
+<p>A.H. Baker, H. Xu, J.M. Dennis, M.N. Levy, D. Nychka, S.A. Mickelson
+, J. Edwards, M. Vertenstein, A. Wegener, “A Methodology for Evaluating the Impact of Data Compression on Climate Simulation Data.” Proc. of the 23rd International ACM Symposium on High Performance Parallel and Distributed Computing (HPDC14), Vancouver, CA, pp. 203-214, 2014.</p>
+</div>
+<div class=site-project-single-image>
+</div>
+<div class=site-project-single-action>
+<div class=site-project-single-action-next>
+<a href=https://asap.ucar.edu/projects/verify/>
+<span class=link-area>
+<span data-text=Next>Next</span>
+</span>
+<img src=https://asap.ucar.edu/images/to-top.svg alt=next>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main><footer class=site-footer>
+<div class=container>
+<div class=row>
+<div class="col-lg-3 col-md-4">
+<div class=site-footer-widget>
+<h5 class=site-footer-widget-title>Contact Info</h5>
+<p class=site-footer-widget-description>
+1850 Table Mesa Dr.<br>Boulder, CO 80305
+</p>
+<p class=site-footer-widget-description>
+<a href=mailto:asap@ucar.edu>asap@ucar.edu</a>
+</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-4">
+<div class=site-footer-widget>
+<h5 class=site-footer-widget-title>Sitemap</h5>
+<div class=row>
+<div class=col-6>
+<ul class=site-footer-widget-links>
+<li><a href=https://asap.ucar.edu/about>About us</a></li>
+<li><a href=https://asap.ucar.edu/publications>Publications</a></li>
+<li><a href=https://asap.ucar.edu/siparcs>Internships</a></li>
+</ul>
+</div>
+<div class=col-6>
+<ul class=site-footer-widget-links>
+<li><a href=https://asap.ucar.edu/software>Software</a></li>
+<li><a href=https://asap.ucar.edu/projects>Research</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-8">
+<div class=site-footer-nsf>
+The National Center for Atmospheric Research is sponsored by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the National Science Foundation.
+</div>
+</div>
+<div class="col-lg-2 col-md-4">
+<div class=site-footer-logo><a href=https://nsf.gov><img src=https://asap.ucar.edu/logos/footer-logo-nsf.png alt=logo-footer></a></div>
+</div>
+</div>
+</div>
+</footer>
+<footer class=ucar-footer>
+<div class=container>
+<div class=row>
+<div class="col-lg-2 col-sm-3">
+<div class=ucar-footer-widget>
+<h6><a href=https://www.ucar.edu/notification-copyright-infringement-digital-millenium-copyright-act>&copy; 2023 UCAR</a></h6>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3">
+<div class=ucar-footer-widget>
+<h6><a href=https://www.ucar.edu/privacy-notice>Privacy</a></h6>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3">
+<div class=ucar-footer-widget>
+<h6><a href=https://www.ucar.edu/cookie-other-tracking-technologies-notice>Cookies</a></h6>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3">
+<div class=ucar-footer-widget>
+<h6><a href=https://www.ucar.edu/terms-of-use>Terms of Use</a></h6>
+</div>
+</div>
+<div class="col-lg-1 col-sm-4">
+<div class=ucar-footer-widget>
+<h6> <a href=https://nsf.gov>NSF</a> </h6>
+</div>
+</div>
+<div class="col-lg-1 col-sm-4">
+<div class=ucar-footer-widget>
+<h6> <a href=https://ncar.ucar.edu>NCAR</a> </h6>
+</div>
+</div>
+<div class="col-lg-1 col-sm-4">
+<div class=ucar-footer-widget>
+<h6> <a href=https://www.ucar.edu>UCAR</a> </h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://asap.ucar.edu/js/vendor.min.js></script>
+<script src=https://asap.ucar.edu/js/script.min.js></script>
+</body>
+</html>
