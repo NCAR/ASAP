@@ -4,6 +4,13 @@ image  : images/banners/aurora.jpg
 items  :
 
   - title: 
+    student: Gunther Huebler,
+    university:  University of Wisconsin, Milwaukee,
+    mentors:
+     - Sheri Voelz (NCAR)
+    year: 2023
+
+  - title: 
     student: Teo Price-Broncucia,
     university:  University of Colorado at Boulder,
     mentors:
