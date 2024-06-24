@@ -3,6 +3,20 @@ title  : PRESENTATIONS
 image  : images/banners/peaks.jpg
 items  :
 
+  - title: EarthWorks Scaling a Fully Coupled Climate Model to Run at Ultra-High Resolutions
+    authors:
+      - Sheri Voelz
+    conference: PASC24, Zurich, Switzerland
+    month: June
+    year: 2024
+    url: https://pasc24.pasc-conference.org/presentation/?id=msa118&sess=sess128
+  - title: A Portable and Efficient Lagrangian Particle Capability for Idealized Atmospheric Phenomena
+    authors:
+      - John Dennis
+    conference: PASC24, Zurich, Switzerland
+    month: June
+    year: 2024
+    url: https://pasc24.pasc-conference.org/presentation/?id=pap140&sess=sess178
   - title: EarthWorks The computational and engineering challenges faced when building a global storm-resolving resolution modeling system 
     authors:
       - Sheri Mickelson
