@@ -106,7 +106,7 @@ items  :
     extra:
     url: https://doi.org/10.5194/gmd-16-1735-2023
 
-  - title: Further improvement and evaluation of nudging in the E3SM Atmosphere Model version 1 (EAMv1): simulations of the mean climate, weather events, and anthropogenic aerosol effects
+  - title: Further improvement and evaluation of nudging in the E3SM Atmosphere Model version 1 (EAMv1) - simulations of the mean climate, weather events, and anthropogenic aerosol effects
     authors:
       - Shixuan Zhang
       - Kai Zhang
@@ -116,7 +116,7 @@ items  :
     year: 2022
     url: https://doi.org/10.5194/gmd-15-6787-2022
 
-  - title: Effective radiative forcing of anthropogenic aerosols in E3SM version 1: historical changes, causality, decomposition, and parameterization sensitivities
+  - title: Effective radiative forcing of anthropogenic aerosols in E3SM version 1 - historical changes, causality, decomposition, and parameterization sensitivities
     authors:
       - Kai Zhang
       - Wentao Zhang
