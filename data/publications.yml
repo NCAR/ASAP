@@ -3,6 +3,63 @@ title  : PUBLICATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: Global variability in atmospheric new particle formation mechanisms
+    authors:
+      - Bin Zhao
+      - Neil M Donahue
+      - Kai Zhang
+      - Lizhuo Mao
+      - Manish Shrivastava
+      - Po-Lun Ma
+      - Jiewen Shen
+      - Shuxiao Wang
+      - Jian Sun
+      - Hamish Gordon
+      - Shuaiqi Tang
+      - Jerome Fast
+      - Mingyi Wang
+      - Yang Gao
+      - Chao Yan
+      - Balwinder Singh
+      - Zeqi Li
+      - Lyuyin Huang
+      - Sijia Lou
+      - Guangxing Lin
+      - Hailong Wang
+      - Jingkun Jiang
+      - Aijun Ding
+      - Wei Nie
+      - Ximeng Qi
+      - Xuguang Chi
+      - Lin Wang
+    journal: Nature
+    year: 2024
+    url: https://doi.org/10.1038/s41586-024-07547-1
+
+  - title: Quantifying structural errors in cloud condensation nuclei activity from reduced representation of aerosol size distributions
+    authors:
+      - Laura Fierce
+      - Yu Yao
+      - Richard Easter
+      - Po-Lun Ma
+      - Jian Sun
+      - Hui Wan
+      - Kai Zhang
+    journal: Journal of Aerosol Science
+    year: 2024
+    url: https://doi.org/10.1016/j.jaerosci.2024.106388
+
+  - title: A Portable and Efficient Lagrangian Particle Capability for Idealized Atmospheric Phenomena
+    authors:
+      - John Dennis
+      - Jian Sun
+      - Sheri Voelz
+      - George Bryan
+      - David Richter
+    journal: PASC24: Proceedings of the Platform for Advanced Scientific Computing Conference
+    year: 2024
+    url: https://doi.org/10.1145/3659914.3659940
+
   - title: Acceleration of the Parameterization of Unified Microphysics Across Scales (PUMAS) on the Graphics Processing Unit (GPU) With Directive-Based Methods 
     authors:
       - Jian Sun
@@ -48,6 +105,61 @@ items  :
     year: 2023
     extra:
     url: https://doi.org/10.5194/gmd-16-1735-2023
+
+  - title: Further improvement and evaluation of nudging in the E3SM Atmosphere Model version 1 (EAMv1): simulations of the mean climate, weather events, and anthropogenic aerosol effects
+    authors:
+      - Shixuan Zhang
+      - Kai Zhang
+      - Hui Wan
+      - Jian Sun
+    journal: Geoscientific Model Development
+    year: 2022
+    url: https://doi.org/10.5194/gmd-15-6787-2022
+
+  - title: Effective radiative forcing of anthropogenic aerosols in E3SM version 1: historical changes, causality, decomposition, and parameterization sensitivities
+    authors:
+      - Kai Zhang
+      - Wentao Zhang
+      - Hui Wan
+      - Philip J. Rasch
+      - Steven J. Ghan
+      - Richard C. Easter
+      - Xiangjun Shi
+      - Yong Wang
+      - Hailong Wang
+      - Po-Lun Ma
+      - Shixuan Zhang
+      - Jian Sun
+      - Susannah M. Burrows
+      - Manish Shrivastava
+      - Balwinder Singh
+      - Yun Qian
+      - Xiaohong Liu
+      - Jean-Christophe Golaz
+      - Qi Tang
+      - Xue Zheng
+      - Shaocheng Xie
+      - Wuyin Lin
+      - Yan Feng
+      - Minghuai Wang
+      - Jin-Ho Yoon
+      - L. Ruby Leung
+    journal: Atmospheric Chemistry and Physics
+    year: 2022
+    url: https://doi.org/10.5194/acp-22-9129-2022
+
+  - title: Ice and Supercooled Liquid Water Distributions Over the Southern Ocean Based on In Situ Observations and Climate Model Simulations
+    authors:
+      - Ching An Yang
+      - Minghui Diao
+      - Andrew Gettelman
+      - Kai Zhang
+      - Jian Sun
+      - Greg McFarquhar
+      - Wei Wu
+    journal: Journal of Geophysical Research: Atmospheres
+    year: 2021
+    url: https://doi.org/10.1029/2021JD036045
 
   - title: Nine time steps -- ultra-fast statistical consistency testing of the Community Earth System Model (pyCECT v3.0) 
     authors:
