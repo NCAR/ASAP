@@ -45,7 +45,7 @@ items  :
   - title: "Lossy compression and the Community Earth System Model: reducing data volume while preserving information"
     authors:
       - Allison Baker
-    conference: Optimization, and Machine Learning Seminar, CU Boulder
+    conference: Optimization and Machine Learning Seminar, CU Boulder
     month: April
     year: 2024
   - title: Ensemble Consistency Tests for ESM Development
