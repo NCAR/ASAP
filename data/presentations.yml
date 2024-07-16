@@ -18,7 +18,7 @@ items  :
     year: 2024
     url: https://pasc24.pasc-conference.org/presentation/?id=pap140&sess=sess178
 
-  - title: Ensemble Consistency Testing: New Models and Realistic Bug Scenarios
+  - title: Ensemble Consistency Testing with New Models and Realistic Bug Scenarios
     authors:
       - Teo Price-Broncucia
     conference:  CESM Workshop
