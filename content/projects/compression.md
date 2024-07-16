@@ -52,9 +52,9 @@ https://github.com/NCAR/ldcpy
 
 **Related publications and tech notes:**
 
-H. Sather, A. Pinard, A.H. Baker, and D.M. Hammerling, “What can real information content tell us about compressing climate model data?” 8th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD-8), 2022, to appear.
+A.H. Baker, A. Pinard, and D.M. Hammerling, “On a structural similarity index approach for floating-point data”, IEEE Transactions on Visualization and Computer Graphics, 2023.
 
-A.H. Baker, A. Pinard, and D.M. Hammerling, “Assessing the effects of compression on climate model visualizations with a structural similarity index for floating-point data”, submitted to TVCG, Sept. 2022. 
+H. Sather, A. Pinard, A.H. Baker, and D.M. Hammerling, “What can real information content tell us about compressing climate model data?” 8th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD-8), pp. 29-36,2022.
 
 A. Pinard, A.H. Baker, D.M. Hammerling, “Examining Variations in the Optimal Compression Level of Spatiotemporal Datasets Determined Using the Data Structural Similarity Index Measure (DSSIM),” National Center for Atmospheric Research Tech. Report NCAR/TN-570+STR, 2021. (DOI: 10.5065/4q49-t141)
 
