@@ -60,10 +60,6 @@ items  :
     year: 2024
     url: https://doi.org/10.1145/3659914.3659940
 
-Alper Altuntas, Allison Baker, Ilene Carpenter, Brian Dobbins, Michael Duda, Dorit
-Hammerling, Thomas Hauser, and Karsten Peters-von Gehlen, “Report on the 2023 Workshop on Correctness and Reproducibility for Climate and Weather Software”, NCAR Technical Report
-
-
   - title: Report on the 2023 Workshop on Correctness and Reproducibility for Climate and Weather Software
     authors:
       - Alper Altuntas

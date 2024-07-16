@@ -222,7 +222,7 @@ items  :
      - John M. Dennis
      - Brian Dobbins
      - Youngsung Kim
-    conference: Multicore 8 Worksjhop 2018
+    conference: Multicore 8 Workshop 2018
     month: September
     year: 2018
     url: http://n2t.net/ark:/85065/d7cn772j
@@ -232,13 +232,13 @@ items  :
      - John M. Dennis
      - Brian Dobbins
      - Allison Baker
-     - Yougnsung Kim
+     - Youngsung Kim
     conference: Multicore 10 workshop 2020
     month: September
     year: 2020
     url: http://n2t.net/ark:/85065/d7gb27b2
   
-  - title: Assessing representativeness of kernels using descrsiptive statistics
+  - title: Assessing representativeness of kernels using descriptive statistics
     authors:
      - Youngsung Kim
      - John M. Dennis
@@ -253,7 +253,7 @@ items  :
      - Dan Milroy
      - Andrew Gettelman
      - Allison Baker
-    conference: Atmosphere Model Working Groiup Winter Meeting 2019
+    conference: Atmosphere Model Working Group Winter Meeting 2019
     month: February
     year: 2019
     url: http://n2t.net/ark:/85065/d78055q0
@@ -277,20 +277,20 @@ items  :
      - Allison Baker
      - Kevin Paul
      - Sheri Mickelson
-    conference: Korea Meteorological Admistration - Numerical Modeling Center
+    conference: Korea Meteorological Administration - Numerical Modeling Center
     month: January
     year: 2018
     url: http://n2t.net/ark:/85065/d7445qdq
 
-  - title: Lossy data compression for climate simulation data Reducing data voume while preserving information
+  - title: Lossy data compression for climate simulation data Reducing data volume while preserving information
     authors: 
      - Allison Baker
-     - Dorith Hammerling
+     - Dorit Hammerling
      - Haiying Xu
      - John Dennis
      - John P. Clyne
      - Shaomeng Li
-    conference: The Platform for Atvanced Scientific Computing (PASC18) Conference 2018
+    conference: The Platform for Advanced Scientific Computing (PASC18) Conference 2018
     month: July
     year: 2018
     url: http://n2t.net/ark:/85065/d7445qc8
