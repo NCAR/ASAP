@@ -60,6 +60,39 @@ items  :
     year: 2024
     url: https://doi.org/10.1145/3659914.3659940
 
+Alper Altuntas, Allison Baker, Ilene Carpenter, Brian Dobbins, Michael Duda, Dorit
+Hammerling, Thomas Hauser, and Karsten Peters-von Gehlen, “Report on the 2023 Workshop on Correctness and Reproducibility for Climate and Weather Software”, NCAR Technical Report
+
+
+  - title: Report on the 2023 Workshop on Correctness and Reproducibility for Climate and Weather Software
+    authors:
+      - Alper Altuntas
+      - Allison Baker
+      - Ilene Carpenter
+      - Brian Dobbins
+      - Dorit Hammerling
+      - Thomas Hauser
+      - Karsten Peters-von Gehlen
+    journal: National Center for Atmospheric Research Tech. Report NCAR/TN-582+PROC
+    year: 2024
+    url: http://dx.doi.org/10.5065/0534-mc88
+
+  - title: Efficient GMRES+AMG on GPUs: Composite Smoothers and Mixed V-Cycles
+    authors:
+      - S. Thomas
+      - A.H. Baker
+    journal: SIAM Journal on Scientific Computing
+    year: 2024
+
+  - title: On a structural similarity index approach for floating-point data
+    authors:
+      - A.H. Baker
+      - A. Pinard
+      - D.M. Hammerling
+    journal: IEEE Transactions on Visualization and Computer Graphics
+    year: 2023
+    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10319365
+
   - title: Acceleration of the Parameterization of Unified Microphysics Across Scales (PUMAS) on the Graphics Processing Unit (GPU) With Directive-Based Methods 
     authors:
       - Jian Sun

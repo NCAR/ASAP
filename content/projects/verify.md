@@ -54,6 +54,10 @@ https://github.com/NCAR/PyCECT
 
 **Related publications and tech notes:**
 
+Alper Altuntas, Allison Baker, Ilene Carpenter, Brian Dobbins, Michael Duda, Dorit Hammerling, Thomas Hauser, and Karsten Peters-von Gehlen, “Report on the 2023 Workshop on Correctness and Reproducibility for Climate and Weather Software”, National Center for Atmospheric Research Tech. Report NCAR/TN-582+PROC (doi:10.5065/0534-mc88), 2024.
+
+Teo Price-Broncucia, Allison Baker, Dorit Hammerling, Michael Duda, and Rebecca Morrison, “The Ensemble Consistency Test: From CESM to MPAS and Beyond”, submitted to GMD, June 2024.
+
 Dong Ahn, Allison H. Baker, Michael Bentley, Ian Briggs, Ganesh
  Gopalakrishnan, Dorit M. Hammerling, Ignacio Laguna, Gregory L. Lee,
  Daniel J. Milroy, Mariana Vertenstein, "Keeping Science on Keel When

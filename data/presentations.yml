@@ -17,6 +17,51 @@ items  :
     month: June
     year: 2024
     url: https://pasc24.pasc-conference.org/presentation/?id=pap140&sess=sess178
+
+  - title: Ensemble Consistency Testing: New Models and Realistic Bug Scenarios
+    authors:
+      - Teo Price-Broncucia
+    conference:  CESM Workshop
+    month: June
+    year: 2024
+    url: https://www.cesm.ucar.edu/events/351/agenda
+
+  - title: Training Statistical Models to Identify Optimal Lossy Compression Parameters
+    authors:
+      - Alex Pinard
+    conference:  CESM Workshop
+    month: June
+    year: 2024
+    url: https://www.cesm.ucar.edu/events/351/agenda
+    
+  - title: Lossy Compression and Climate Simulation Data: Reducing Data Volume While Preserving Information
+    authors:
+      - Allison Baker
+    conference:CAV 2024 Workshop on Correct Data Compression
+    month: July
+    year: 2024
+    url: https://sites.google.com/gcloud.utah.edu/codac/home?authuser=0
+    
+  - title: Lossy compression and the Community Earth System Model: reducing data volume while preserving information
+    authors:
+      - Allison Baker
+    conference: Optimization, and Machine Learning Seminar, CU Boulder
+    month: April
+    year: 2024
+  - title: Ensemble Consistency Tests for ESM Development
+    authors:
+      - Allison Baker
+    conference:  CESM Software Engineering Working Group Winter Meeting
+    month: March
+    year: 2024
+    url: https://www.cesm.ucar.edu/events/working-groups/2024/software
+  - title: Lossy Compression for Earth System Models
+    authors:
+      - Allison Baker
+    conference:  NSF FZ Project Workshop
+    month: February
+    year: 2024
+    url: https://szcompressor.org/next.szcompressor.github.io/meetings/feb24fl/
   - title: EarthWorks The computational and engineering challenges faced when building a global storm-resolving resolution modeling system 
     authors:
       - Sheri Mickelson
