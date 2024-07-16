@@ -34,7 +34,7 @@ items  :
     year: 2024
     url: https://www.cesm.ucar.edu/events/351/agenda
     
-  - title: Lossy Compression and Climate Simulation Data: Reducing Data Volume While Preserving Information
+  - title: Lossy Compression and Climate Simulation Data:Reducing Data Volume While Preserving Information
     authors:
       - Allison Baker
     conference:CAV 2024 Workshop on Correct Data Compression
