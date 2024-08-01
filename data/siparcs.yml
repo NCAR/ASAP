@@ -3,6 +3,15 @@ title  : SIParCS PROJECTS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: "Investigate the workflow and scaling of organizational CI/CD server"
+    student: Tri Nguyen
+    university: Indiana University Bloomington
+    url: "https://www.cisl.ucar.edu/outreach/internships/2024projects"
+    mentors:
+     - Haiying Xu
+     - Brian Vanderwende
+    year: 2024
+
   - title: "GPU Enablement of MICM Chemistry Solver"
     student: Qina Tan
     university: Colorado School of Mines
