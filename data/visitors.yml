@@ -4,6 +4,14 @@ image  : images/banners/aurora.jpg
 items  :
 
   - title: 
+    student: Mark Onders (CI Compass Internship)
+    university: University of Notre Dame,
+    mentors:
+     - Cena Miller
+     - John Dennis
+    year: 2024
+
+  - title: 
     student: Gunther Huebler,
     university:  University of Wisconsin, Milwaukee,
     mentors:

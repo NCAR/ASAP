@@ -3,6 +3,25 @@ title  : SIParCS PROJECTS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title:  "Refactoring the Photolysis Rates Calculator in C++: Performance Evaluation Using Standard Testing and Benchmarking Methodologies"  
+    student: Aditya Dendukuri
+    university: University of California Santa Barbara
+    url: "https://www.cisl.ucar.edu/outreach/internships/2024presentations"
+    mentors:
+     - Jian Sun
+     - Matthew Dawson
+     - Kyle Shores
+    year: 2024
+
+  - title: "Autoscaling for HPC Runners" 
+    student: Tri Nguyen
+    university: Indiana University Bloomington
+    url: "https://www.cisl.ucar.edu/outreach/internships/2024presentations"
+    mentors:
+     - Haiying Xu
+     - Brian Vanderwende
+    year: 2024
+
   - title: "GPU Enablement of MICM Chemistry Solver"
     student: Qina Tan
     university: Colorado School of Mines
