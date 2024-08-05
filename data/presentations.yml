@@ -24,7 +24,6 @@ items  :
     month: June
     year: 2024
     url: https://pasc24.pasc-conference.org/presentation/?id=pap140&sess=sess178
-
   - title: "Ensemble Consistency Testing: New Models and Realistic Bug Scenarios"
     authors:
       - Teo Price-Broncucia
@@ -32,7 +31,6 @@ items  :
     month: June
     year: 2024
     url: https://www.cesm.ucar.edu/events/351/agenda
-
   - title: Training Statistical Models to Identify Optimal Lossy Compression Parameters
     authors:
       - Alex Pinard
@@ -40,7 +38,13 @@ items  :
     month: June
     year: 2024
     url: https://www.cesm.ucar.edu/events/351/agenda
-    
+  - title: Performance optimization of ultra-high resolution earth system models on GPUs
+    authors:
+      - John Dennis
+    conference:  8th ENES HPC workshop - High-Performance Computing for Climate and Weather, Lecce Italy
+    month: May
+    year: 2024
+    url: https://www.esiwace.eu/events/8th-enes-hpc-workshop
   - title: "Lossy Compression and Climate Simulation Data: Reducing Data Volume While Preserving Information"
     authors:
       - Allison Baker
@@ -48,7 +52,6 @@ items  :
     month: July
     year: 2024
     url: https://sites.google.com/gcloud.utah.edu/codac/home?authuser=0
-    
   - title: "Lossy compression and the Community Earth System Model: reducing data volume while preserving information"
     authors:
       - Allison Baker
