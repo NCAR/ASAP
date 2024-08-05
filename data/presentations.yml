@@ -3,6 +3,13 @@ title  : PRESENTATIONS
 image  : images/banners/peaks.jpg
 items  :
 
+  - title: APAR SAMURAI - CISL Update 
+    authors:
+      - Cena Miller
+    conference: APAR Stakeholder Meeting, Boulder, Colorado
+    month: June
+    year: 2024
+    url:
   - title: EarthWorks Scaling a Fully Coupled Climate Model to Run at Ultra-High Resolutions
     authors:
       - Sheri Voelz
