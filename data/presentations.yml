@@ -55,6 +55,20 @@ items  :
     month: March
     year: 2024
     url: https://www.cesm.ucar.edu/events/working-groups/2024/software
+  - title: CLUBB GPUization and Performance Portability
+    authors:
+      - Gunther Huebler
+    conference: CESM Software Engineering Working Group Meeting 2024 
+    month: March
+    year: 2024
+    url: https://www.cesm.ucar.edu/sites/default/files/2024-03/2024-cesm-sewg-ghueblerpptx.pdf 
+  - title: Using Github Copilot in VS Code
+    authors:
+      - Supreeth Suresh
+    conference: CESM Software Engineering Working Group Meeting 2024 
+    month: March
+    year: 2024
+    url: https://www.cesm.ucar.edu/events/367/agenda 
   - title: Lossy Compression for Earth System Models
     authors:
       - Allison Baker
