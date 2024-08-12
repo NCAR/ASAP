@@ -3,6 +3,13 @@ title  : PRESENTATIONS
 image  : images/banners/peaks.jpg
 items  :
 
+  - title: APAR SAMURAI - CISL Update 
+    authors:
+      - Cena Miller
+    conference: APAR Stakeholder Meeting, Boulder, Colorado
+    month: June
+    year: 2024
+    url:
   - title: EarthWorks Scaling a Fully Coupled Climate Model to Run at Ultra-High Resolutions
     authors:
       - Sheri Voelz
@@ -17,7 +24,6 @@ items  :
     month: June
     year: 2024
     url: https://pasc24.pasc-conference.org/presentation/?id=pap140&sess=sess178
-
   - title: "Ensemble Consistency Testing: New Models and Realistic Bug Scenarios"
     authors:
       - Teo Price-Broncucia
@@ -25,7 +31,6 @@ items  :
     month: June
     year: 2024
     url: https://www.cesm.ucar.edu/events/351/agenda
-
   - title: Training Statistical Models to Identify Optimal Lossy Compression Parameters
     authors:
       - Alex Pinard
@@ -33,7 +38,13 @@ items  :
     month: June
     year: 2024
     url: https://www.cesm.ucar.edu/events/351/agenda
-    
+  - title: Performance optimization of ultra-high resolution earth system models on GPUs
+    authors:
+      - John Dennis
+    conference:  8th ENES HPC workshop - High-Performance Computing for Climate and Weather, Lecce Italy
+    month: May
+    year: 2024
+    url: https://www.esiwace.eu/events/8th-enes-hpc-workshop
   - title: "Lossy Compression and Climate Simulation Data: Reducing Data Volume While Preserving Information"
     authors:
       - Allison Baker
@@ -41,7 +52,6 @@ items  :
     month: July
     year: 2024
     url: https://sites.google.com/gcloud.utah.edu/codac/home?authuser=0
-    
   - title: "Lossy compression and the Community Earth System Model: reducing data volume while preserving information"
     authors:
       - Allison Baker
@@ -55,6 +65,20 @@ items  :
     month: March
     year: 2024
     url: https://www.cesm.ucar.edu/events/working-groups/2024/software
+  - title: CLUBB GPUization and Performance Portability
+    authors:
+      - Gunther Huebler
+    conference: CESM Software Engineering Working Group Meeting 2024 
+    month: March
+    year: 2024
+    url: https://www.cesm.ucar.edu/sites/default/files/2024-03/2024-cesm-sewg-ghueblerpptx.pdf 
+  - title: Using Github Copilot in VS Code
+    authors:
+      - Supreeth Suresh
+    conference: CESM Software Engineering Working Group Meeting 2024 
+    month: March
+    year: 2024
+    url: https://www.cesm.ucar.edu/events/367/agenda 
   - title: Lossy Compression for Earth System Models
     authors:
       - Allison Baker
