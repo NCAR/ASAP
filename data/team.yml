@@ -8,7 +8,7 @@ members  :
     githubuname : allibco
 
   - name        : CENA BROWN
-    designation : Software Engineer II
+    designation : Software Engineer III
     ncaruname   : cmille73 
     githubuname : cenamiller 
 
@@ -16,11 +16,6 @@ members  :
     designation : Scientist III
     ncaruname   : dennis 
     githubuname : johnmauff
-
-  - name        : ALEXANDER PINARD 
-    designation : Visitor
-    ncaruname   : apinard
-    githubuname : 
 
   - name        : JIAN SUN
     designation : Software Engineer II
@@ -33,7 +28,7 @@ members  :
     githubuname : supreethms1809 
 
   - name        : SHERI VOELZ
-    designation : Software Engineer III
+    designation : Software Engineer IV
     ncaruname   : mickelso
     githubuname : sherimickelson
 
