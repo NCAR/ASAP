@@ -36,12 +36,12 @@ items  :
     year: 2024
     url: https://doi.org/10.1038/s41586-024-07547-1
 
-  - title: The Fused Multiply-Add and Global Atmospheric Models: A Distributional Investigation into a Surprising Correctness Scenario
+  - title: "The Fused Multiply-Add and Global Atmospheric Models: A Distributional Investigation into a Surprising Correctness Scenario"
     authors:
       - Teo Price-Broncucia
       - Allison Baker
       - Michael Duda
-    journal: SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis
+    journal: "SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
     year: 2024
     url: https://www.computer.org/csdl/proceedings-article/sc-workshops/2024/555400a140/23l2IVhfMME
 
@@ -60,7 +60,7 @@ items  :
       - Yan Song
       - Georgiy L. Stenchikov
       - Ying Sun
-    journal: SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis
+    journal: "SC24: International Conference for High Performance Computing, Networking, Storage and Analysis"
     year: 2024
     url: https://ieeexplore.ieee.org/document/10793148
     
